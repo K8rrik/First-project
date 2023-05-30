@@ -1,0 +1,53 @@
+.currencies_header{
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 80px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 111.9%;
+    color: #160647;
+}
+.currencies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: auto;
+}
+.currency{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+.currency img{
+    width: 32px;
+    height: 32px;
+    margin-right: 30px;
+}
+.currency_text{
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+}
+.currency_name{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #A4AABF;
+}
+.currency_value{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 155.5%;
+    color: #160647;
+}
