@@ -1,5 +1,5 @@
 import "./Main.css"
-import cberbank from "./../../imgs/cberbank.png"
+import sberbank from "./../../imgs/sberbank.png"
 import yamoney from "./../../imgs/yamoney.png"
 import arrows from "./../../imgs/arrows.png"
 function Main() {
@@ -18,7 +18,7 @@ function Main() {
                     <div className={"main_top_info_give_event"}>
                         <input placeholder={"1000.00"}/>
                         <div className={"main_top_info_give_event_un"}>
-                            <img src={cberbank} width="32px" height="32px"/>
+                            <img src={sberbank} width="32px" height="32px"/>
                             <div className={"select-wrapper"}>
                                 <select name={'current_cash_in'} id={""} className={"select"}>
                                     <option value={"1"}>RUB</option>
