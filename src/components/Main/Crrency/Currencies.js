@@ -3,7 +3,7 @@ import {currencies} from "../../../helpers/valutsList"
 import Currency from "./Currency";
 function Currencies() {
     return(
-        <div>
+        <div className="currencies_main">
             <h2 className="currencies_header">Резерв валют</h2>
             <div className="currencies">
                 {currencies.map((current_val) => {
