@@ -1,6 +1,10 @@
+.currencies_main{
+    background: linear-gradient(180deg, #FAFBFD 50%,  #FFFFFF 96.57%);
+}
 .currencies_header{
     text-align: center;
-    margin-top: 120px;
+    padding-top: 120px;
+    margin-top: 0;
     margin-bottom: 80px;
     font-family: 'Rubik';
     font-style: normal;
@@ -13,17 +17,17 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 70%;
+    width: 65%;
     margin: auto;
+    column-gap: 100px;
+    row-gap: 80px;
+    margin-bottom: 140px;
 }
 .currency{
     display: flex;
     justify-content: center;
     align-items: center;
-
-
-    margin-right: 100px;
-    margin-bottom: 50px;
+    text-align: center;
 }
 .currency img{
     width: 32px;

@@ -1,0 +1,94 @@
+.main_review{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+}
+.review_header{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 132.4%;
+    color: #160647;
+    width: 65%;
+    margin: auto;
+}
+.reviews{
+    height: 80%;
+    width: 65%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    column-gap: 10%;
+
+}
+.review_info{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    align-self: end;
+    margin-top: 60px;
+    width: 100%;
+
+}
+
+.review_content{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 166%;
+    color: #4E5983;
+    opacity: 0.7;
+}
+.one_review{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 100%;
+}
+.review_name{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 155.5%;
+    color: #160647;
+
+}
+.review_time{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #838BA8;
+}
+.review_buttons{
+    margin: auto;
+    width: 65%;
+    display: flex;
+    column-gap: 25px;
+    justify-content: right;
+    align-items: center;
+}
+.review_before{
+    color:#A17FFF;
+    font-size: 60px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    background: transparent;
+}
+.review_after{
+    color:#A17FFF;
+    font-size: 60px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    background: transparent;
+}
