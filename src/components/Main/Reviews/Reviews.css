@@ -14,7 +14,7 @@
     margin: auto;
 }
 .reviews{
-    height: 80%;
+    height: 40%;
     width: 65%;
     margin: auto;
     display: flex;
@@ -63,32 +63,63 @@
     font-size: 14px;
     line-height: 17px;
     color: #838BA8;
+
 }
 .review_buttons{
     margin: auto;
     width: 65%;
     display: flex;
-    column-gap: 25px;
+    column-gap: 45px;
     justify-content: right;
     align-items: center;
+    height: 10%;
+    margin-bottom: 0;
 }
 .review_before{
+    position: relative;
     color:#A17FFF;
-    font-size: 60px;
+    font-size: 80px;
     cursor: pointer;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     border: 0;
     background: transparent;
+    width: 5%;
+    transition: 0.5s;
+}
+
+.beforedisabled{
+    color:#DADDE5;
+    font-size: 60px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    background: transparent;
+    width: 5%;
+    transition: 0.5s;
 }
 .review_after{
     color:#A17FFF;
-    font-size: 60px;
+    font-size: 80px;
     cursor: pointer;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     border: 0;
     background: transparent;
+    width: 5%;
+    transition: 0.5s;
+}
+.afterdisabled{
+    color:#DADDE5;
+    font-size: 60px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    background: transparent;
+    width: 5%;
+    transition: 0.5s;
 }

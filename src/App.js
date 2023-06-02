@@ -5,6 +5,7 @@ import Benefits from "./components/Benefits/Benefits";
 import Block1 from "./components/Main/Block_1/Block1";
 import Currencies from "./components/Main/Crrency/Currencies";
 import Reviews from "./components/Main/Reviews/Reviews";
+import Block2 from "./components/Main/Block_2/Block2";
 function App() {
     return(
         <div>
@@ -14,6 +15,7 @@ function App() {
             <Block1/>
             <Currencies/>
             <Reviews/>
+            <Block2/>
             <Footer/>
         </div>
     )

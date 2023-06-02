@@ -2,9 +2,12 @@ import "./Main.css"
 import sberbank from "./../../imgs/sberbank.png"
 import yamoney from "./../../imgs/yamoney.png"
 import arrows from "./../../imgs/arrows.png"
+import Main_img from "./../../imgs/Main.png"
 function Main() {
     return(
         <div className={"main_top"}>
+            <img className="Main_png" src={Main_img}/>
+            <img className="Main_png1" src={Main_img}/>
             <div className={"main_top_text"}>
                 Мультивалютный <br/> обменный сервис 24/7 <br/>
                 <p className={"main_top_texts"}>Быстрый обмен без скрытых комиссий</p>

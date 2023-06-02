@@ -6,6 +6,20 @@ html,body{
 #root{
     height: 100%;
 }
+.Main_png{
+    position: absolute;
+    height: 360px;
+    transform: rotate(-60deg);
+    left: 75%;
+    top: 10%;
+}
+.Main_png1{
+    position: absolute;
+    height: 360px;
+    transform: rotate(60deg);
+    left: 1%;
+    top: 40%;
+}
 .main_top{
     height: 755px;
     background: linear-gradient(140.59deg, #562EC2 29.59%, #A07EFE 73.59%);
@@ -13,7 +27,7 @@ html,body{
     width: 100%;
     align-items: center;
     flex-direction: column;
-
+    position: relative;
 }
 .main_top_text {
     margin-top: 113px;
@@ -37,6 +51,7 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 2;
 }
     .main_top_info_arrows{
         opacity: 0.5;

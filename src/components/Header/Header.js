@@ -2,8 +2,14 @@ import "./Header.css"
 
 function Header() {
     return(
-        <div className={"nav"}>
-            <div className={"nav_logo"}>MONEYEXCHANGE</div>
+        <div className="nav">
+            <div className="logo">
+                <div className="logo_img"></div>
+                <div className="logo_name">
+                    <div className="logo_name_1">MONEYEX</div>
+                    <div className="logo_name_2">CHANGE</div>
+                </div>
+            </div>
             <ul className={"nav_navigation"}>
                 <li className={"nav_navigation_1"}>Кампания</li>
                 <li className={"nav_navigation_1"}>Блог</li>

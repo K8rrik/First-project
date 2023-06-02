@@ -23,8 +23,8 @@ function Reviews() {
                 }
             </div>
             <div className="review_buttons">
-                <button className="review_before" onClick={beforeclick}>🠐</button>
-                <button className="review_after" onClick={afterclick}>🠒</button>
+                <button className={startIndex === 0 ? "beforedisabled" : "review_before"} onClick={beforeclick}>🠐</button>
+                <button className={startIndex === reviews.length-1 ? "afterdisabled" : "review_after"} onClick={afterclick}>🠒</button>
             </div>
         </div>
     )
