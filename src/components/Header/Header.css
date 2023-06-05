@@ -60,8 +60,6 @@ html,body{
             color: #4E5983;
         }
     .nav_enter{
-        width: 232px;
-        margin-right: 50px;
         text-align: center;
         display: flex;
         justify-content: space-evenly;
@@ -100,3 +98,12 @@ html,body{
             line-height: 19px;
             color: #4E5983;
         }
+.logo_copy{
+    display: none;
+    align-items: center;
+}
+.adapt_h{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

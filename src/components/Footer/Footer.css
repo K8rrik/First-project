@@ -3,29 +3,29 @@
     justify-content: space-evenly;
     margin-top: 7%;
     padding-bottom: 3%;
-    align-items: start;
+    align-items: center;
 }
-.logo_main{
+.logo_footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.logo{
+.logo_f{
     display: flex;
     align-items: center;
 }
-.logo_img {
+.logo_f_img{
     width: 0;
     height: 0;
     border-style: solid;
     border-width: 0 0 10px 10px;
     border-color: transparent transparent #643DCD transparent;
 }
-.logo_name{
+.logo_f_name{
     display: flex;
     margin-left: 10px;
 }
-.logo_name_1{
+.logo_f_name_1{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 1000;
@@ -34,7 +34,7 @@
     color: #160647;
 
 }
-.logo_name_2{
+.logo_f_name_2{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -51,16 +51,14 @@
     line-height: 17px;
     color: #838BA8;
     margin-top: 10px;
-
 }
 .fot_navigation{
     list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 35%;
-
     margin: 0;
+    padding: 0;
 }
 .fot_navigation li{
     cursor: pointer;
@@ -68,17 +66,24 @@
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 17px;
     color: #4E5983;
 }
 .footer_icons {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-   width: 10%;
+    column-gap: 15px;
+}
+.footer_icons a{
+    height: 32px;
 }
 .footer_icon{
-    width: 32px;
     height: 32px;
+}
+.footer_icons_copy{
+    display: none;
+    column-gap: 15px;
+}
+.adapt_f{
+    display: flex;
 }

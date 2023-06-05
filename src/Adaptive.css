@@ -1,0 +1,250 @@
+@media screen and (max-width: 1150px){
+    /*header*/
+        .logo_name_1{
+            font-size: 15px;
+        }
+        .logo_name_2{
+            font-size: 15px;
+        }
+        .nav_navigation{
+            width: auto;
+        }
+        .nav_navigation_1{
+            font-size: 14px;
+        }
+        .nav_enter button{
+            font-size: 14px;
+        }
+    /*main*/
+        .main_top_text {
+            font-size: 48px;
+        }
+    /*block1*/
+        .Block img{
+            height: 236px;
+        }
+        .Block_text h2{
+            font-size: 30px;
+        }
+    /*footer*/
+        .logo_f_name_1{
+            font-size: 15px;
+        }
+        .logo_f_name_2{
+            font-size: 15px;
+        }
+        .logo_info {
+            font-size: 12px;
+        }
+        .fot_navigation li{
+            font-size: 14px;
+        }
+        .footer_icons a{
+            height: 24px;
+        }
+        .footer_icon{
+            height: 24px;
+        }
+    /*block2*/
+        .block2_text_h2 {
+            font-size: 30px;
+        }
+    /*reviews*/
+        .review_header {
+            font-size: 30px;
+        }
+    /*curriencies*/
+        .currencies_header {
+            font-size: 30px;
+        }
+}
+
+@media screen and (max-width: 1000px){
+    /*block1*/
+        .Block img{
+            height: 180px;
+        }
+        .Block_text h2{
+            font-size: 25px;
+        }
+        .Block_text p{
+            font-size: 16px;
+        }
+    /*benefits*/
+        .description{
+            font-size: 16px;
+        }
+    /*reviews */
+        .review_content {
+            font-size: 16px;
+        }
+    /*footer*/
+        .logo_info {
+            font-size: 10px;
+        }
+        .fot_navigation li{
+            font-size: 12px;
+        }
+    /*block2*/
+        .block2_text_h2 {
+            font-size: 25px;
+        }
+        .block2_text_p {
+            font-size: 16px;
+        }
+        .block2_img {
+            height: 270px;
+        }
+        .block_2_button {
+            width: 150px;
+            height: 50px;
+            font-size: 14px;
+        }
+        .review_header {
+            font-size: 30px;
+        }
+     /*curriencies*/
+        .currencies_header {
+            font-size: 30px;
+        }
+    }
+
+@media screen and (max-width: 767px){
+    /*header*/
+        .logo_name {
+            display: none;
+        }
+        .nav {
+            height: auto;
+        }
+    /*main*/
+        .main_top_text {
+            font-size: 32px;
+        }
+        .main_top_texts {
+            font-size: 16px;
+        }
+        .main_top_info{
+            flex-direction: column;
+            padding: 5% 15% 5% 15%;
+        }
+        .main_top_info_arrows {
+            margin-top: 40px;
+            margin-bottom: 40px;
+            margin-right: 0;
+            rotate: 90deg;
+        }
+    /*benefits*/
+        .benefits{
+            flex-direction: column;
+        }
+    /*block_1*/
+        .Block{
+            flex-direction: column;
+            padding-bottom: 10%;
+        }
+        .Block_text{
+            width: auto;
+            margin: 50px 11% 50px 11%;
+        }
+    /*footer*/
+        .Footer {
+            flex-direction: column-reverse;
+        }
+        .footer_icons {
+            display: none;
+        }
+        .footer_icons_copy{
+            display: flex;
+        }
+        .adapt_f{
+            width: 100%;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 5%;
+        }
+    /*block2*/
+        .main_block2 {
+          flex-direction: column;
+        }
+        .block2_img {
+            margin-top: 5%;
+        }
+        .block2_text {
+            width: auto;
+            margin: 0 10% 5% 11%;
+        }
+    /*reviews*/
+        .reviews {
+            flex-direction: column;
+        }
+        .review_header {
+            font-size: 25px;
+        }
+        .review_info {
+            margin-top: 0;
+        }
+        .one_review {
+            margin-bottom: 10%;
+        }
+        .review_header{
+            margin-bottom: 5%;
+        }
+        .review_buttons {
+             width: auto;
+        }
+    /*curriencies*/
+        .currencies_header {
+            font-size: 25px;
+        }
+}
+@media screen and (max-width: 520px) {
+    /*header*/
+        .nav_navigation_1 {
+            font-size: 12px;
+        }
+        .nav_btn_enter {
+            padding: 6px 10px;
+            font-size: 12px;
+        }
+        .nav_btn_regist {
+            padding: 7px 10px;
+            font-size: 12px;
+        }
+        .nav {
+            flex-direction: column-reverse;
+        }
+        .logo{
+            display: none;
+        }
+        .nav_navigation {
+            width: 100%;
+            justify-content: center;
+            column-gap: 30px;
+        }
+        .logo_copy{
+            display: flex;
+        }
+        .adapt_h{
+            width: 100%;
+            margin-top: 2%;
+        }
+        .logo_name {
+            display: flex;
+        }
+        .nav_enter{
+            margin: 0;
+        }
+    /*block1*/
+        .Block img {
+            height: 140px;
+        }
+    /*block2*/
+        .block2_img {
+            height: 230px;
+        }
+     /*main*/
+        .main_top_text {
+            font-size: 28px;
+        }
+}

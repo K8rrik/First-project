@@ -1,7 +1,6 @@
 .main_review{
     display: flex;
     flex-direction: column;
-    height: 50vh;
 }
 .review_header{
     font-family: 'Rubik';
@@ -12,15 +11,13 @@
     color: #160647;
     width: 65%;
     margin: auto;
+    margin-bottom: 2%;
 }
 .reviews{
-    height: 40%;
     width: 65%;
     margin: auto;
     display: flex;
-    align-items: center;
     column-gap: 10%;
-
 }
 .review_info{
     display: flex;
@@ -72,11 +69,9 @@
     column-gap: 45px;
     justify-content: right;
     align-items: center;
-    height: 10%;
     margin-bottom: 0;
 }
 .review_before{
-    position: relative;
     color:#A17FFF;
     font-size: 80px;
     cursor: pointer;
@@ -85,7 +80,6 @@
     appearance: none;
     border: 0;
     background: transparent;
-    width: 5%;
     transition: 0.5s;
 }
 
@@ -97,7 +91,6 @@
     appearance: none;
     border: 0;
     background: transparent;
-    width: 5%;
     transition: 0.5s;
 }
 .review_after{
@@ -109,7 +102,6 @@
     appearance: none;
     border: 0;
     background: transparent;
-    width: 5%;
     transition: 0.5s;
 }
 .afterdisabled{
@@ -120,6 +112,6 @@
     appearance: none;
     border: 0;
     background: transparent;
-    width: 5%;
     transition: 0.5s;
 }
+
