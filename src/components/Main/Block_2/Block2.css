@@ -1,30 +1,22 @@
 .main_block2{
-    width: 70%;
-    position: relative;
-    margin: auto;
     background: linear-gradient(140.59deg, #7857CE 29.59%, #9C83DE 73.59%);
     border-radius: 17px;
     display: flex;
     align-items: center;
-    margin-top: 5%;
-    justify-content: end;
-
+    justify-content: space-around;
+    margin: 0 10% 0 10%;
 }
 .block2_img{
-   height: 470px;
-   left: 100px;
-   bottom: -55px;
+   height: 370px;
    transform: rotate(61.14deg);
-   position: absolute;
+    margin-top: 2%;
 }
 .block2_text{
     display: flex;
     flex-direction: column;
-    width: 35%;
+    width: 45%;
     margin-bottom: 50px;
     margin-top: 20px;
-    margin-right: 100px;
-
 }
 .block2_text_h2{
     font-family: 'Rubik';

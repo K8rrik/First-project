@@ -1,36 +1,14 @@
 @import url("/src/Fonts/fonts.css");
 
-html,body{
-    height: 100%;
-}
-#root{
-    height: 100%;
-}
-.Main_png{
-    position: absolute;
-    height: 360px;
-    transform: rotate(-60deg);
-    left: 75%;
-    top: 10%;
-}
-.Main_png1{
-    position: absolute;
-    height: 360px;
-    transform: rotate(60deg);
-    left: 1%;
-    top: 40%;
-}
 .main_top{
-    height: 755px;
     background: linear-gradient(140.59deg, #562EC2 29.59%, #A07EFE 73.59%);
     display: flex;
     width: 100%;
     align-items: center;
     flex-direction: column;
-    position: relative;
+    padding: 4% 0 5%;
 }
 .main_top_text {
-    margin-top: 113px;
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
@@ -39,12 +17,11 @@ html,body{
     font-family: Rubik;
 }
 .main_top_texts{
-    font-size: 19px;
+    font-size: 18px;
 }
 .main_top_info{
-    margin-top: 40px;
-    width: 58%;
-    height: 285px;
+    padding: 5% 3% 5% 3%;
+    margin: 0 3% 0 3%;
     background-color: #FFFFFF;
     border: 4px solid #F7F8FD;
     border-radius: 26px;
@@ -60,11 +37,6 @@ html,body{
         margin-top: 80px;
         margin-right: 25px;
     }
-.main_top_info_give{
-    width: auto;
-    height: 130px;
-
-}
     .main_top_info_give input{
         border: 0;
         width: 50%;
@@ -90,6 +62,7 @@ html,body{
         color: #4E5983;
         font-size: 18px;
         font-weight: 500;
+        margin-bottom: 31px;
     }
     .main_top_info_give p {
         margin-top: 0;
@@ -121,10 +94,6 @@ html,body{
             justify-content: space-evenly;
 
         }
-.main_top_info_get{
-    width: 350px;
-    height: 130px;
-}
     .main_top_info_get input{
         border: 0;
         width: 50%;
@@ -144,6 +113,12 @@ html,body{
             color: #212529;
             opacity: 0.4;
         }
+        .main_top_info_get_{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            align-items: start;
+        }
     .main_top_info_get h2 {
         margin-top: 0;
         display: inline;
@@ -153,7 +128,7 @@ html,body{
         color: #4E5983;
         font-size: 18px;
         font-weight: 500;
-
+        margin-bottom: 0px;
     }
     .main_top_info_get p {
         margin-top: 0;

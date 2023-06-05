@@ -6,8 +6,8 @@ import Main_img from "./../../imgs/Main.png"
 function Main() {
     return(
         <div className={"main_top"}>
-            <img className="Main_png" src={Main_img}/>
-            <img className="Main_png1" src={Main_img}/>
+            {/*<img className="Main_png" src={Main_img}/>*/}
+            {/*<img className="Main_png1 " src={Main_img}/>*/}
             <div className={"main_top_text"}>
                 Мультивалютный <br/> обменный сервис 24/7 <br/>
                 <p className={"main_top_texts"}>Быстрый обмен без скрытых комиссий</p>
@@ -16,7 +16,6 @@ function Main() {
             <div className={"main_top_info"}>
                 <div className={"main_top_info_give"}>
                     <h2>Вы отдаете</h2>
-                    <br/>
                     <p>Сумма</p>
                     <div className={"main_top_info_give_event"}>
                         <input placeholder={"1000.00"}/>
@@ -35,8 +34,10 @@ function Main() {
                 </div>
                 <img src={arrows} className={"main_top_info_arrows"} />
                 <div className={"main_top_info_get"}>
-                    <p> <h2>Вы получаете</h2>с учётом комиссии ПС (0.5%)</p>
-                    <br/>
+                    <div className="main_top_info_get_">
+                        <h2>Вы получаете</h2>
+                        <p>с учётом комиссии ПС (0.5%)</p>
+                    </div>
                     <p>Сумма</p>
                     <div className={"main_top_info_get_event"}>
                         <input placeholder={"970.00"}/>

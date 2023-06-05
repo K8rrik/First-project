@@ -1,22 +1,21 @@
-.benefits{
+.main_benefits{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70%;
-    margin: auto;
-    margin-bottom: 100px;
+}
+.benefits{
+    display: flex;
+    margin: 4% 10% 4% 10%;
 }
 .benefit{
     display: flex;
     flex-direction: column;
     text-align: left;
     align-items: center;
-    height: 100%;
-    width: 30%;
+    justify-content: start;
 }
 .cur_img{
-    width: 256px;
-    height: 256px;
+    height: 215px;
 }
 .description{
     font-family: 'Rubik';
