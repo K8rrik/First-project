@@ -1,4 +1,4 @@
-import {reviews} from "../../../helpers/reviewsList";
+import {reviews} from "../../helpers/reviewsList";
 import Review from "./Review";
 import {useState} from "react";
 import "./Reviews.css"
