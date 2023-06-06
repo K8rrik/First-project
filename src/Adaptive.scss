@@ -1,18 +1,22 @@
-@media screen and (max-width: 1150px) {
+$size_head_2: 30px;
+$size_head_3: 25px;
+$size_text_1: 16px;
+
+@media screen and (max-width: 1150px){
   /*header*/
-  .logo_name_1 {
+  .logo_name_1{
     font-size: 15px;
   }
-  .logo_name_2 {
+  .logo_name_2{
     font-size: 15px;
   }
-  .nav_navigation {
+  .nav_navigation{
     width: auto;
   }
-  .nav_navigation_1 {
+  .nav_navigation_1{
     font-size: 14px;
   }
-  .nav_enter button {
+  .nav_enter button{
     font-size: 14px;
   }
   /*main*/
@@ -20,76 +24,77 @@
     font-size: 48px;
   }
   /*block1*/
-  .Block img {
+  .Block img{
     height: 236px;
   }
-  .Block_text h2 {
-    font-size: 30px;
+  .Block_text h2{
+    font-size: $size_head_2;
   }
   /*footer*/
-  .logo_f_name_1 {
+  .logo_f_name_1{
     font-size: 15px;
   }
-  .logo_f_name_2 {
+  .logo_f_name_2{
     font-size: 15px;
   }
   .logo_info {
     font-size: 12px;
   }
-  .fot_navigation li {
+  .fot_navigation li{
     font-size: 14px;
   }
-  .footer_icons a {
+  .footer_icons a{
     height: 24px;
   }
-  .footer_icon {
+  .footer_icon{
     height: 24px;
   }
   /*block2*/
   .block2_text_h2 {
-    font-size: 30px;
+    font-size: $size_head_2;
   }
   /*reviews*/
   .review_header {
-    font-size: 30px;
+    font-size: $size_head_2;
   }
   /*curriencies*/
   .currencies_header {
-    font-size: 30px;
+    font-size: $size_head_2;
   }
 }
-@media screen and (max-width: 1000px) {
+
+@media screen and (max-width: 1000px){
   /*block1*/
-  .Block img {
+  .Block img{
     height: 180px;
   }
-  .Block_text h2 {
-    font-size: 25px;
+  .Block_text h2{
+    font-size: $size_head_3;
   }
-  .Block_text p {
-    font-size: 16px;
+  .Block_text p{
+    font-size: $size_text_1;
   }
   /*benefits*/
-  .description {
-    font-size: 16px;
+  .description{
+    font-size: $size_text_1;
   }
   /*reviews */
   .review_content {
-    font-size: 16px;
+    font-size: $size_text_1;
   }
   /*footer*/
   .logo_info {
     font-size: 10px;
   }
-  .fot_navigation li {
+  .fot_navigation li{
     font-size: 12px;
   }
   /*block2*/
   .block2_text_h2 {
-    font-size: 25px;
+    font-size: $size_head_3;
   }
   .block2_text_p {
-    font-size: 16px;
+    font-size: $size_text_1;
   }
   .block2_img {
     height: 270px;
@@ -100,14 +105,15 @@
     font-size: 14px;
   }
   .review_header {
-    font-size: 30px;
+    font-size: $size_head_2;
   }
   /*curriencies*/
   .currencies_header {
-    font-size: 30px;
+    font-size: $size_head_2;
   }
 }
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 767px){
   /*header*/
   .logo_name {
     display: none;
@@ -120,9 +126,9 @@
     font-size: 32px;
   }
   .main_top_texts {
-    font-size: 16px;
+    font-size: $size_text_1;
   }
-  .main_top_info {
+  .main_top_info{
     flex-direction: column;
     padding: 5% 15% 5% 15%;
   }
@@ -133,15 +139,15 @@
     rotate: 90deg;
   }
   /*benefits*/
-  .benefits {
+  .benefits{
     flex-direction: column;
   }
   /*block_1*/
-  .Block {
+  .Block{
     flex-direction: column;
     padding-bottom: 10%;
   }
-  .Block_text {
+  .Block_text{
     width: auto;
     margin: 50px 11% 50px 11%;
   }
@@ -152,10 +158,10 @@
   .footer_icons {
     display: none;
   }
-  .footer_icons_copy {
+  .footer_icons_copy{
     display: flex;
   }
-  .adapt_f {
+  .adapt_f{
     width: 100%;
     justify-content: space-around;
     align-items: center;
@@ -177,7 +183,7 @@
     flex-direction: column;
   }
   .review_header {
-    font-size: 25px;
+    font-size: $size_head_3;
   }
   .review_info {
     margin-top: 0;
@@ -185,7 +191,7 @@
   .one_review {
     margin-bottom: 10%;
   }
-  .review_header {
+  .review_header{
     margin-bottom: 5%;
   }
   .review_buttons {
@@ -193,7 +199,7 @@
   }
   /*curriencies*/
   .currencies_header {
-    font-size: 25px;
+    font-size: $size_head_3;
   }
 }
 @media screen and (max-width: 520px) {
@@ -212,7 +218,7 @@
   .nav {
     flex-direction: column-reverse;
   }
-  .logo {
+  .logo{
     display: none;
   }
   .nav_navigation {
@@ -220,17 +226,17 @@
     justify-content: center;
     column-gap: 30px;
   }
-  .logo_copy {
+  .logo_copy{
     display: flex;
   }
-  .adapt_h {
+  .adapt_h{
     width: 100%;
     margin-top: 2%;
   }
   .logo_name {
     display: flex;
   }
-  .nav_enter {
+  .nav_enter{
     margin: 0;
   }
   /*block1*/
@@ -246,5 +252,3 @@
     font-size: 28px;
   }
 }
-
-/*# sourceMappingURL=Adaptive.css.map */
