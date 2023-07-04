@@ -49,15 +49,29 @@ html,body{
         width: 300px;
         padding: 0;
     }
-        .nav_navigation_1{
+        .nav_navigation_1 a{
             cursor: pointer;
-            padding: 6px 12px;
+            margin: 6px 12px;
             font-family: 'Rubik';
             font-style: normal;
             font-weight: 400;
             font-size: 16px;
             line-height: 19px;
+            text-decoration: none;
             color: #4E5983;
+        }
+        .nav_navigation_1active a{
+            cursor: pointer;
+            margin: 6px 12px;
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            text-decoration: none;
+            color: #4E5983;
+            border-bottom: #A07EFE 3px solid;
+            border-radius: 2px;
         }
     .nav_enter{
         text-align: center;
